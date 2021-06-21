@@ -8,12 +8,12 @@
 ### End-points
 
 ```
-/api
+GET /api
 ```
-GET returns actual date
+returns actual date
 
 
 ```
-/api/{date}
+GET /api/{date}
 ```
-GET returns the conversion of date passed in epochs or string and returns it in epochs and formated to UTC string
+returns the conversion of date passed in epochs or string and returns it in epochs and formated to UTC string
